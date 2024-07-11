@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+  caption{
+    text-align: center;
+   font-size: larger;
+   margin-bottom: 20px;
+   background-color: aliceblue;
+  }
+  th,td {
+    background-color: #96D4D4;
+    height: max-content;
+    font-size: 20px;
+   padding: 10px;
+  }
+td:hover{
+  background:wheat ;
+}
+  
+a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  
+}
+
+a:hover{
+  color: rgb(6, 43, 231);
+  border-radius: 10px;
+  
+}
+a:visited{
+  color: rgb(5, 82, 148);
+}
+
+footer{
+  background-color: #96D4D4;
+  height: 35px;
+  padding: 5px;
+  text-align: center;
+}
